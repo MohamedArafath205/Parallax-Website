@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.parallax-1 {
+    background-image: url('assets/space.jpg');
+    width: 100%;
+    height: 735px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.parallax-1 h2{
+    position: absolute;
+    top: 300px;
+    width: 400px;
+    height: 40px;
+    left: 570px;
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 25px;
+}
+
+.parallax-1 p{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 730px;
+    background-color: black;
+    padding: 30px;
+}
+
+.parallax-2 {
+    background-image: url('assets/nature.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.parallax-2 h2{
+    color: white;
+    top: 1000px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 670px;
+    font-size: 40px;
+}
+
+.parallax-2 p{
+    position: absolute;
+    top: 1200px;
+    background: black;
+    color: white;
+    text-align: center;
+}
